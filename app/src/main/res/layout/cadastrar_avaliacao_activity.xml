@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f3f3" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                style="@style/texto_sessao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="INFORMAÇÕES GERAIS" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@android:color/darker_gray" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtAlturaCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Altura(cm)"
+                android:inputType="number"
+                android:maxLength="3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtPesoCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Peso(kg)"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                style="@style/texto_sessao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="MEDIDAS DE PERIMETRIA " />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@android:color/darker_gray" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtPeitoCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Peito(cm)"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtOmbroCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Ombro(cm)"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtBracorelaxadoCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Braço relaxado(cm)"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtBracocontraidoCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Braço contraido(cm)"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtAntebracoCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Antebraço(cm)"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtCinturaCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Cintura(cm)"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtAbdomenCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Abdomen(cm)"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtQuadrilCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Quadril(cm)"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtCoxasuperiorCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Coxa superior(cm)"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtCoxamediaCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Coxa média(cm)"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtCoxainferiorCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Coxa inferior(cm)"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtPernaCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Perna(cm)"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                style="@style/texto_sessao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="MEDIDAS DE DOBRAS CUTÂNEAS" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@android:color/darker_gray" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtPeitoralCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Peitoral(mm)"
+                android:inputType="numberDecimal"
+                android:maxLength="4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtBicipitalCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Bicipital(mm)"
+                android:inputType="numberDecimal"
+                android:maxLength="4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtTricipitalCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Tricipital(mm)"
+                android:inputType="numberDecimal"
+                android:maxLength="4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtSubescapularCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Subescapular(mm)"
+                android:inputType="numberDecimal"
+                android:maxLength="4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtAxilarmediaCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Axilar média(mm)"
+                android:inputType="numberDecimal"
+                android:maxLength="4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtAbdominalCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Abdominal(mm)"
+                android:inputType="numberDecimal"
+                android:maxLength="4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtSuprailiacaCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Supra ilíaca(mm)"
+                android:inputType="numberDecimal"
+                android:maxLength="4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtDcCoxasuperiorCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Coxa superior(mm)"
+                android:inputType="numberDecimal"
+                android:maxLength="4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtDcCoxamediaCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Coxa média(mm)"
+                android:inputType="numberDecimal"
+                android:maxLength="4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtDcCoxainferiorCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Coxa inferior(mm)"
+                android:inputType="numberDecimal"
+                android:maxLength="4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <EditText
+                android:id="@+id/edtPanturrilhamedialCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Panturrilha medial(mm)"
+                android:inputType="numberDecimal"
+                android:maxLength="4" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

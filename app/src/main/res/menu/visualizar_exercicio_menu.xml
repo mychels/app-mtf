@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menueditarVE"
+        android:icon="@drawable/ic_editar"
+        android:showAsAction="ifRoom"
+        android:title="Editar"/>
+    <item
+        android:id="@+id/menuexcluirVE"
+        android:icon="@drawable/ic_excluir"
+        android:showAsAction="ifRoom"
+        android:title="Excluir"/>
+
+</menu>

@@ -1,0 +1,43 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="texto_sessao">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="texto_conteudo">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">normal</item>
+    </style>
+
+    <style name="texto_modulo">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="texto_titulo">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="listView">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:divider">#e3e3e3</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+    <style name="subtituloListview">
+        <item name="android:textColor">@android:color/holo_blue_dark</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

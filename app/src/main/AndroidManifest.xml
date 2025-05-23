@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="21" /> -->
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/tema_app"
+        tools:targetApi="31">
+
+        <activity android:name="br.com.mrs.mtf.activity.HomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.AvaliacoesCadastradasActivity"
+            android:label="Avaliações realizadas" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.ExerciciosCadastradosActivity"
+            android:label="Exercícios cadastrados" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.TreinosCadastradosActivity"
+            android:label="Treinos cadastrados" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.CadastrarAvaliacaoActivity"
+            android:label="Nova avaliação" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.CadastrarExercicioActivity"
+            android:label="Novo exercício" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.CadastrarTreinoActivity"
+            android:label="Novo treino" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.AdicionarExercicioTreinoActivity"
+            android:label="Adicionar exercício" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.CadastrarRotinaActivity"
+            android:label="Nova rotina" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.EditarExercicioActivity"
+            android:label="Editar exercício" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.VisualizarExercicioActivity"
+            android:label="Visualizar exercício" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.VisualizarTreinoActivity"
+            android:label="Visualizar treino" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.EditarTreinoActivity"
+            android:label="Editar treino" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.CadastrarDietaActivity"
+            android:label="Nova dieta" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.DietasCadastradasActivity"
+            android:label="Dietas cadastradas" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.AdicionarAlimentoRefeicaoActivity"
+            android:label="Adicionar alimento" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.EditarAvaliacaoActivity"
+            android:label="Editar avaliação" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.VisualizarAvaliacaoActivity"
+            android:label="Visualizar avaliação" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.VisualizarRotinaActivity"
+            android:label="Minha rotina" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.CadastrarAlimentoActivity"
+            android:label="Cadastrar alimento" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.CadastrarUnidadeActivity"
+            android:label="Cadastrar unidade" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.RegistrarLogserieActivity"
+            android:label="Registrar série" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.EditarRotinaActivity"
+            android:label="Editar rotina" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.VisualizarSeriesExercicioActivity"
+            android:label="Séries do exercício" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.VisualizarDietaActivity"
+            android:label="Visualizar dieta" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.VisualizarAlimentosRefeicaoActivity"
+            android:label="Visualizar alimentos" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.EditarDietaActivity"
+            android:label="Editar dieta" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.VisualizarSeriesRegistradasActivity"
+            android:label="Séries registradas" >
+        </activity>
+        <activity
+            android:name="br.com.mrs.mtf.activity.VisualizarLogTreinoActivity"
+            android:label="Log dos treinos" >
+        </activity>
+
+    </application>
+
+</manifest>

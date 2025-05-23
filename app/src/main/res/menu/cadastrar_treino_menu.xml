@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menuadicionarCT"
+        android:icon="@drawable/ic_adicionar"
+        android:showAsAction="ifRoom"
+        android:title="Adicionar exercício"/>
+    <item
+        android:id="@+id/menusalvarCT"
+        android:icon="@drawable/ic_salvar"
+        android:showAsAction="ifRoom"
+        android:title="Salvar treino"/>
+
+</menu>

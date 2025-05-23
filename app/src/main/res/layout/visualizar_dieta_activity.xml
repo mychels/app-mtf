@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f3f3" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/tvNomedietaVD"
+            style="@style/texto_titulo"
+            android:text="Dieta segunda-feira"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlCafemanhaVD"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"
+            android:clickable="true" >
+
+            <TextView
+                style="@style/texto_modulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="Café da manhã" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_proximo" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlLanchemanhaVD"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/white"
+            android:clickable="true" >
+
+            <TextView
+                style="@style/texto_modulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="Lanche da manhã" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_proximo" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlAlmocoVD"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/white"
+            android:clickable="true" >
+
+            <TextView
+                style="@style/texto_modulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="Almoço" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_proximo" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlLanchetardeVD"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/white"
+            android:clickable="true" >
+
+            <TextView
+                style="@style/texto_modulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="Lanche da tarde" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_proximo" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlJantarVD"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/white"
+            android:clickable="true" >
+
+            <TextView
+                style="@style/texto_modulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="Jantar" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_proximo" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlCeiaVD"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/white"
+            android:clickable="true" >
+
+            <TextView
+                style="@style/texto_modulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="Ceia" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_proximo" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

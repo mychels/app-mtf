@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvDatalogSR"
+            style="@style/texto_modulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvQtdrepeticoesSR"
+            style="@style/subtituloListview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvDatalogSR"
+            android:text="15" />
+
+        <TextView
+            android:id="@+id/tvRepeticoesSR"
+            style="@style/subtituloListview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvDatalogSR"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@+id/tvQtdrepeticoesSR"
+            android:text="repetições" />
+
+        <TextView
+            android:id="@+id/tvQtdcargaSR"
+            style="@style/subtituloListview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@id/tvDatalogSR"
+            android:layout_toRightOf="@+id/tvRepeticoesSR"
+            android:text="55" />
+
+        <TextView
+            android:id="@+id/tvCargaSR"
+            style="@style/subtituloListview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvDatalogSR"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@+id/tvQtdcargaSR"
+            android:text="kg" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_proximo" />
+    </RelativeLayout>
+
+</LinearLayout>
