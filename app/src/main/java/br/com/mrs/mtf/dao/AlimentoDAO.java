@@ -128,4 +128,15 @@ public class AlimentoDAO {
 		}
 		return qtd;
 	}
+
+	// buscar se ja existe um alimento cadastrado com o mesmo nome
+	public boolean buscarSeAlimentoJaExiste(String nomeAlimento) {
+		database = dbHelper.getReadableDatabase();
+		String SCRIPT_BUSCA = "SELECT * FROM ALIMENTO WHERE NOMEALIMENTO = ?";
+		cursor = database.rawQuery(SCRIPT_BUSCA, new String[]{ nomeAlimento });
+
+		boolean existe = cursor.getCount() > 0;
+		cursor.close();
+		return existe;
+	}
 }
